@@ -28,6 +28,9 @@ function autoScroll() {
   }
 }
 
-// 開始と停止のためのコマンドを提供します
-console.log('自動スクロールを開始するには、startAutoScroll()を実行してください。');
+// 自動スクロールを即時実行
+startAutoScroll();
+
+// 開始と停止のためのコマンドを表示
+console.log('自動スクロールを開始しました。');
 console.log('自動スクロールを停止するには、stopAutoScroll()を実行してください。');
